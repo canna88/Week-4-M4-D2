@@ -1,0 +1,7 @@
+- creare l'elemento da 0 e attribuirgli le classi
+- ripetere questa operazione per 4 card
+
+- creare 3 sezioni differenti
+
+- al click sul go
+    - cancella

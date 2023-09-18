@@ -159,9 +159,7 @@ ul {
   filter: brightness(50%);
 }
 
-#eminem,
-#metallica,
-#queen,
+.artistNameDescription,
 #searchResults,
 #artist-tracks {
   color: white;
@@ -228,4 +226,38 @@ ul {
 
 .mainPage img {
   width: 200px;
+}
+
+/* NUOVE CLASSI */
+
+.artistNameDescription {
+  box-sizing: border-box;
+}
+
+.resultSection .card {
+  width: 30px;
+  overflow: hidden;
+  background-color: #47474748;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.resultSection .card img {
+  border-radius: 10px;
+  width: 85%;
+  margin: 20px 20px 0 20px;
+}
+
+.resultSection .card-body {
+  justify-content: start;
+  width: 100%;
+}
+
+.card-body h4 {
+  font-weight: bold;
+  color: white;
+}
+
+.card-body p {
+  color: white;
 }
